@@ -8,7 +8,7 @@ double Message(string message) {
     return num;
 }
 
-double Drob(double num) {
+double Drob(double num) { // метод вычисления цепной дроби
     int count = 1;
     double result = 2;
         while(count < num) {
